@@ -11,6 +11,12 @@ public class Main {
         // however the JFrame window will be slightly larger
         frame.setSize(650, 495);
 
+        // Make the new PongGame
+        PongGame game = new PongGame();
+
+        // Add the game to the window
+        frame.add(game);
+
         // Show window
         frame.setVisible(true);
     }
