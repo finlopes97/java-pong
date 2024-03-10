@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3af4dcc5-5943-411b-8e17-0d8a550689f4" name="Changes" comment="feat(gfx): add ball to game window">
+    <list default="true" id="3af4dcc5-5943-411b-8e17-0d8a550689f4" name="Changes" comment="feat(gfx): add timer&#10;Timer refreshes window every 33ms or approx. 30 times per second.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ball.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ball.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PongGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PongGame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +89,7 @@
       <option name="presentableId" value="Default" />
       <updated>1710030333099</updated>
       <workItem from="1710030334127" duration="1038000" />
-      <workItem from="1710037406963" duration="3912000" />
+      <workItem from="1710037406963" duration="4200000" />
     </task>
     <task id="LOCAL-00001" summary="feat(gfx): add solid bg color to window">
       <option name="closed" value="true" />
@@ -105,7 +107,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710056430605</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat(gfx): add timer&#10;Timer refreshes window every 33ms or approx. 30 times per second.">
+      <option name="closed" value="true" />
+      <created>1710056731786</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710056731786</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +135,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat(gfx): add solid bg color to window" />
     <MESSAGE value="feat(gfx): add ball to game window" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(gfx): add ball to game window" />
+    <MESSAGE value="feat(gfx): add timer&#10;Timer refreshes window every 33ms or approx. 30 times per second." />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(gfx): add timer&#10;Timer refreshes window every 33ms or approx. 30 times per second." />
   </component>
 </project>

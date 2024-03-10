@@ -18,4 +18,9 @@ public class Ball {
         graphics.setColor(color);
         graphics.fillOval(x, y, size, size);
     }
+
+    public void moveBall() {
+        x += cx;
+        y += cy;
+    }
 }

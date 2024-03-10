@@ -27,6 +27,9 @@ public class Main {
         Timer timer = new Timer(33, new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                // Responsible for running game logic (e.g. movement)
+                game.gameLogic();
+                // Refreshes the window every 33ms (30FPS)
                 game.repaint();
             }
         });
