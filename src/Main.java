@@ -1,4 +1,7 @@
 import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
 public class Main {
     static JFrame frame = new JFrame("Pong");
 
@@ -19,5 +22,16 @@ public class Main {
 
         // Show window
         frame.setVisible(true);
+
+        // Make a new timer
+        Timer timer = new Timer(33, new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                game.repaint();
+            }
+        });
+
+        // Start timer after creation
+        timer.start();
     }
 }
